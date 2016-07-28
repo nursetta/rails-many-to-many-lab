@@ -27,7 +27,7 @@ For this app, here's the attributes we're tracking:
   * `Actor`: first_name, last_name
   * `Movie`: title, description, year
 
-You can use either the ``has_many_and_belongs_to_many`` or a pair of ``has_many :through`` relationships to create this
+You can use either the ``has_and_belongs_to_many`` or a pair of ``has_many :through`` relationships to create this
 
 Basic hint. You should have at least two models and three migrations
 
